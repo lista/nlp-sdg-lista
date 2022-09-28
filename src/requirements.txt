@@ -25,3 +25,7 @@ numexpr
 sklearn
 scipy
 nltk
+transformers
+torch
+allennlp
+allennlp-models

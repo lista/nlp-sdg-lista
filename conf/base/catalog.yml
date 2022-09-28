@@ -65,3 +65,17 @@ model_input_data:
   filepath: data/05_model_input/model_input.csv
   layer: model_input
   
+summarize_text_data:
+  type: pandas.CSVDataSet 
+  filepath: data/07_model_output/summarize_text_data.csv
+  layer: model_output
+
+ques_and_ans_data:
+  type: pandas.CSVDataSet
+  filepath: data/07_model_output/ques_and_ans_data.csv
+  layer: model_output
+
+locations_and_org_data:
+  type: pandas.CSVDataSet
+  filepath: data/07_model_output/locations_and_org_data.csv
+  layer: model_output
